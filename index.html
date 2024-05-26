@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8" />
+    <title>Hardik's Portfolio</title>
+    <meta
+      name="description"
+      content="This website displays overview of my projects and skills"
+    />
+    <meta name="author" content="Hardik" />
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+
+    <!-- script
+    ================================================== -->
+    <script defer src="js/vendor/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="2.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="22.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="22.png" />
+    <link rel="manifest" href="site.webmanifest" />
+
+    <!-- Open Graph Meta Tags for WhatsApp -->
+    <meta property="og:title" content="Hardik's Portfolio" />
+    <meta
+      property="og:description"
+      content="This website displays an overview of my projects and skills."
+    />
+    <meta
+      property="og:image"
+      content="https://lcthardik.github.io/portfolioRobotics/2.png"
+    />
+    <!-- Replace with your actual image URL -->
+    <meta
+      property="og:url"
+      content="https://lcthardik.github.io/portfolioRobotics/"
+    />
+    <!-- Replace with your actual website URL -->
+    <meta property="og:type" content="website" />
+  </head>
+
+  <body id="top" class="ss-preload">
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+      <div class="row s-header__nav-wrap">
+        <nav class="s-header__nav">
+          <ul>
+            <li class="current">
+              <a class="smoothscroll" href="#hero">Home</a>
+            </li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+            <li><a class="smoothscroll" href="#background">Background</a></li>
+            <li><a class="smoothscroll" href="#projects">Projects</a></li>
+            <li>
+              <a class="smoothscroll" href="#publications">Publications</a>
+            </li>
+            <li><a class="smoothscroll" href="#contact">Contact Me!</a></li>
+            <li>
+              <a
+                class="smoothscroll"
+                href="https://lcthardik.github.io/portfolioRobotics/docs/Hardik_CV.pdf"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- end row -->
+
+      <a class="s-header__menu-toggle" href="#0" title="Menu">
+        <span class="s-header__menu-icon"></span>
+      </a>
+    </header>
+    <!-- end s-header -->
+
+    <!-- hero
+    ================================================== -->
+    <section id="hero" class="s-hero target-section">
+      <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
+
+      <div class="row s-hero__content">
+        <div class="column">
+          <div class="s-hero__content-about">
+            <h1>I'm Hardik Gossain.</h1>
+
+            <h3>
+              I'm a <span>Robotics and Embedded Systems Engineer</span>,
+              passionate about developing innovative and efficient solutions. I
+              specialize in creating<span> ROS based systems</span> and
+              <span>IOT applications</span>. Let's
+              <a class="smoothscroll" href="#about">start scrolling</a> to learn
+              more <a class="smoothscroll" href="#about">about me</a>.
+            </h3>
+
+            <div class="s-hero__content-social">
+              <a
+                href="https://www.linkedin.com/in/hardikgossain/"
+                target="_blank"
+                ><i class="fab fa-linkedin" aria-hidden="true"></i
+              ></a>
+              <a href="https://github.com/lcthardik" target="_blank"
+                ><i class="fab fa-github" aria-hidden="true"></i
+              ></a>
+              <a href="https://www.youtube.com/@skrewitupp" target="_blank"
+                ><i class="fab fa-youtube" aria-hidden="true"></i
+              ></a>
+              <a href="https://www.instagram.com/skrewitupp/" target="_blank"
+                ><i class="fab fa-instagram" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <!-- end s-hero__content-about -->
+        </div>
+      </div>
+      <!-- s-hero__content -->
+
+      <div class="s-hero__scroll">
+        <a href="#about" class="s-hero__scroll-link smoothscroll">
+          <span class="scroll-arrow">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              style="fill: rgba(0, 0, 0, 1)"
+            >
+              <path
+                d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"
+              ></path>
+            </svg>
+          </span>
+          <span class="scroll-text">Scroll Down</span>
+        </a>
+      </div>
+      <!-- s-hero__scroll -->
+    </section>
+    <!-- end s-hero -->
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+      <div class="row">
+        <div class="column large-3 tab-12">
+          <img class="s-about__pic" src="images/avatars/pp.jpg" alt="" />
+        </div>
+        <div class="column large-9 tab-12 s-about__content">
+          <h3>About Me</h3>
+          <p>
+            Hello! I'm Hardik Gossain, a robotics and control systems enthusiast
+            with a Master’s degree from the University of Waterloo and two years
+            of hands-on experience. My background includes designing robotic
+            systems, developing advanced control algorithms, and conducting
+            innovative research. With skills in AI, machine learning, sensor
+            integration, and project management, I am passionate about using
+            robotics to solve real-world problems and improve lives. I am eager
+            to connect with fellow professionals and enthusiasts for
+            collaboration and idea-sharing. Thank you for visiting my website!
+          </p>
+
+          <hr />
+
+          <div class="row s-about__content-bottom">
+            <div class="column w-1000-stack">
+              <h3>Contact Details</h3>
+
+              <p>
+                Hardik Gossain <br />
+                8 Roosevelt Ave <br />
+                Waterloo,ON N2L2N1 CA<br />
+                <a href="tel:+16478654089">+1 (647) 8654-089</a> <br />
+                <a href="mailto:hardikgossain9@gmail.com"
+                  >hardikgossain9@gmail.com</a
+                >
+              </p>
+            </div>
+            <div class="column w-1000-stack">
+              <a
+                href="https://lcthardik.github.io/portfolioRobotics/docs/Hardik_CV.pdf"
+                target="_blank"
+                class="btn btn--download"
+                download
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  style="fill: rgba(0, 0, 0, 1)"
+                >
+                  <path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path>
+                  <path
+                    d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"
+                  ></path>
+                </svg>
+                Download CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end row -->
+    </section>
+    <!-- end s-about -->
+
+    <!-- resume
+    ================================================== -->
+    <section id="background" class="s-resume target-section">
+      <div class="row s-resume__section">
+        <div class="column large-3 tab-12">
+          <h3 class="section-header-allcaps">Career</h3>
+        </div>
+        <div class="column large-9 tab-12">
+          <div class="resume-block">
+            <div class="resume-block__header">
+              <h4 class="h3">Freelance Developer</h4>
+              <p class="resume-block__header-meta">
+                <span>Robotics and Embedded Systems</span>
+                <span class="resume-block__header-date">
+                  November 2023 - Present
+                </span>
+              </p>
+            </div>
+
+            <p>
+              I set up AWS infrastructure for recording and analyzing IoT data,
+              utilizing Lambda, S3, and API Gateway to ensure smooth data
+              processing. This project was completed onsite for a startup within
+              a two-month timeframe. Additionally, I developed multiple path
+              planning algorithms for robots navigating on a grid-based map from
+              source to destination. Collaborating with a PhD researcher, we
+              delivered a robust solution that met all project specifications
+              over a three-month period.
+            </p>
+          </div>
+          <!-- end resume-block -->
+
+          <div class="resume-block">
+            <div class="resume-block__header">
+              <h4 class="h3">Denso</h4>
+              <p class="resume-block__header-meta">
+                <span>Production Associate</span>
+                <span class="resume-block__header-date">
+                  August 2023 - January 2024
+                </span>
+              </p>
+            </div>
+
+            <p>
+              In my role, I calibrated a range of machines, including
+              manipulators, to uphold precision standards in manufacturing parts
+              for HVAC systems. I conducted comprehensive quality checks,
+              encompassing both physical and electrical assessments, to maintain
+              product integrity. Collaborating closely with team members, I
+              ensured the timely completion of targets by coordinating efforts
+              effectively. Throughout the manufacturing process, I consistently
+              upheld exceptional quality standards, contributing to the overall
+              success of the operation.
+            </p>
+          </div>
+
+          <div class="resume-block">
+            <div class="resume-block__header">
+              <h4 class="h3">Aerogram Pvt. Ltd.</h4>
+              <p class="resume-block__header-meta">
+                <span>Embedded Systems Engineer</span>
+                <span class="resume-block__header-date">
+                  January 2020 - August 2020
+                </span>
+              </p>
+            </div>
+
+            <p>
+              I contributed to the development of a pollution monitoring product
+              launched in Delhi. I applied FreeRTOS on the STM32 to collect data
+              from accelerometers, gyroscopes, and PM2.5 sensors and designed
+              the PCB using Eagle. I used I2C, CAN, SPI, and UART protocols for
+              sensor communication with the STM32 and Raspberry Pi. Before
+              deployment, I performed unit, integration, and hardware testing to
+              ensure the device's reliability.
+            </p>
+          </div>
+          <!-- end resume-block -->
+        </div>
+      </div>
+      <!-- s-resume__section -->
+
+      <div class="row s-resume__section">
+        <div class="column large-3 tab-12">
+          <h3 class="section-header-allcaps">Education</h3>
+        </div>
+        <div class="column large-9 tab-12">
+          <div class="resume-block">
+            <div class="resume-block__header">
+              <h4 class="h3">University of Waterloo</h4>
+              <span>Waterloo, ON, Canada</span>
+              <p class="resume-block__header-meta">
+                <span>Master in Electrical and Computer Enigneering</span>
+                <span class="resume-block__header-date"> December 2022 </span>
+              </p>
+            </div>
+
+            <ul class="styled-list">
+              <li>Overall CGPA: 8.3</li>
+              <li>
+                Relevant courses: Robot Dynamics and Control, Multivariable
+                Control Systems, Intelligent Sensors and Sensor Networks and
+                Computational Intelligence
+              </li>
+            </ul>
+          </div>
+          <!-- end resume-block -->
+
+          <div class="resume-block">
+            <div class="resume-block__header">
+              <h4 class="h3">Guru Gobind Singh Indraprastha University</h4>
+              <span>New Delhi, India</span>
+              <p class="resume-block__header-meta">
+                <span
+                  >Bachelors In Electronics and Communication Engineering</span
+                >
+                <span class="resume-block__header-date"> September 2021 </span>
+              </p>
+            </div>
+
+            <ul class="styled-list">
+              <li>Overall CGPA: 8.6</li>
+              <li>
+                Relevant Courses: Embedded Systems, DSP, Digital Electronics,
+                Data Structures, Microcontrollers
+              </li>
+              <li>President of Robotics Society</li>
+            </ul>
+          </div>
+          <!-- end resume-block -->
+        </div>
+      </div>
+      <!-- s-resume__section -->
+
+      <div class="row s-resume__section">
+        <div class="column large-3 tab-12">
+          <h3 class="section-header-allcaps">Skills</h3>
+        </div>
+        <div class="column large-9 tab-12">
+          <div class="resume-block">
+            <ul class="skill-bars-fat">
+              <li>
+                <strong>Programming Languages</strong>
+                <div class="image-row-wrapper">
+                  <div class="image-row">
+                    <img src="images/logos/python.jpg" alt="Python" />
+                    <img src="images/logos/cplusplus.png" alt="C++" />
+                    <!-- Add more images as needed -->
+                  </div>
+                </div>
+              </li>
+              <li>
+                <strong>Operating Systems</strong>
+                <div class="image-row-wrapper">
+                  <div class="image-row">
+                    <img src="images/logos/ubuntu-logo.jpg" alt="Ubuntu" />
+                    <img src="images/logos/raspbian.png" alt="Raspbian OS" />
+                    <img src="images/logos/windows.png" alt="Windows" />
+                    <!-- Add more images as needed -->
+                  </div>
+                </div>
+              </li>
+              <li>
+                <strong>Tools</strong>
+                <div class="image-row-wrapper">
+                  <div class="image-row">
+                    <img src="images/logos/matlab.jpg" alt="MATLAB" />
+                    <img src="images/logos/ros2.png" alt="ROS" />
+                    <img src="images/logos/solidwork.png" alt="SolidWorks" />
+                    <img src="images/logos/gazebo.png" alt="Gazebo" />
+                    <img src="images/logos/vscode.png" alt="VSCode" />
+                    <img src="images/logos/eagle.jpg" alt="Eagle" />
+                    <img src="images/logos/git.jpg" alt="Git" />
+                    <!-- Add more images as needed -->
+                  </div>
+                </div>
+              </li>
+              <li>
+                <strong>Libraries</strong>
+                <div class="image-row-wrapper">
+                  <div class="image-row">
+                    <img src="images/logos/numpy.png" alt="Numpy" />
+                    <img src="images/logos/matplotlib.webp" alt="Matplotlib" />
+                    <img src="images/logos/opencv.png" alt="OpenCV" />
+                    <img src="images/logos/tensorflow.png" alt="TensorFlow" />
+                    <!-- Add more images as needed -->
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <p style="text-align: justify">
+              In addition to above mentioned skills, I excel in various tools
+              like AWS, Google Colab, Atmel Studio, and Eagle. Proficient in
+              Cube IDE and Google Firebase, I craft robust software solutions.
+              My expertise extends to IoT, WSN, STM32, ROS, SLAM, and
+              communication protocols like I2C, CAN, UART, Ethernet, TCP/IP. I
+              leverage Real-Time Operating Systems for responsive systems. This
+              arsenal enables me to develop dynamic applications, manage cloud
+              infrastructure, design intricate hardware, and navigate complex
+              networking environments. With a blend of technical prowess and
+              adaptability, I am primed to innovate and excel in diverse
+              technological landscapes.
+            </p>
+          </div>
+          <!-- end resume-block -->
+        </div>
+      </div>
+      <!-- s-resume__section -->
+    </section>
+    <!-- end s-resume -->
+
+    <!-- portfolio
+    ================================================== -->
+    <section id="projects" class="s-portfolio target-section">
+      <div class="row s-portfolio__header">
+        <div class="column large-12">
+          <h3>A Few Of My Latest Projects</h3>
+        </div>
+      </div>
+
+      <div
+        class="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list"
+      >
+        <div class="column folio-item">
+          <a href="#modal-01" class="folio-item__thumb">
+            <img
+              src="images/projects/planeControl.gif"
+              srcset="
+                images/projects/planeControl.gif 1x,
+                images/projects/planeControl.gif 2x
+              "
+              alt=""
+            />
+          </a>
+        </div>
+        <!-- end folio-item -->
+
+        <div class="column folio-item">
+          <a href="#modal-06" class="folio-item__thumb">
+            <img
+              src="images/projects/linefoloowerwitharm.gif"
+              srcset="
+                images/projects/linefoloowerwitharm.gif 1x,
+                images/projects/linefoloowerwitharm.gif 2x
+              "
+              alt=""
+            />
+          </a>
+        </div>
+        <!-- end folio-item -->
+
+        <div class="column folio-item">
+          <a href="#modal-03" class="folio-item__thumb">
+            <img
+              src="images/projects/kukabot.gif"
+              srcset="
+                images/projects/kukabot.gif 1x,
+                images/projects/kukabot.gif 2x
+              "
+              alt=""
+            />
+          </a>
+        </div>
+        <!-- end folio-item -->
+
+        <div class="column folio-item">
+          <a href="#modal-08" class="folio-item__thumb">
+            <img
+              src="images/projects/landslide.gif"
+              srcset="
+                images/projects/landslide.gif 1x,
+                images/projects/landslide.gif 2x
+              "
+              alt=""
+            />
+          </a>
+        </div>
+        <!-- end folio-item -->
+
+        <div class="column folio-item">
+          <a href="#modal-05" class="folio-item__thumb">
+            <img
+              src="images/projects/imageprocessinglinefollower.gif"
+              srcset="
+                images/projects/imageprocessinglinefollower.gif 1x,
+                images/projects/imageprocessinglinefollower.gif 2x
+              "
+              alt=""
+            />
+          </a>
+        </div>
+        <!-- end folio-item -->
+
+        <div class="column folio-item">
+          <a href="#modal-02" class="folio-item__thumb">
+            <img
+              src="images/projects/underactuated.gif"
+              srcset="
+                images/projects/underactuated.gif 1x,
+                images/projects/underactuated.gif 2x
+              "
+              alt=""
+            />
+          </a>
+        </div>
+        <!-- end folio-item -->
+
+        <div class="column folio-item">
+          <a href="#modal-07" class="folio-item__thumb">
+            <img
+              src="images/projects/gesturedetection.gif"
+              srcset="
+                images/projects/gesturedetection.gif 1x,
+                images/projects/gesturedetection.gif 2x
+              "
+              alt=""
+            />
+          </a>
+        </div>
+        <!-- end folio-item -->
+
+        <div class="column folio-item">
+          <a href="#modal-04" class="folio-item__thumb">
+            <img
+              src="images/projects/garuda.gif"
+              srcset="
+                images/projects/garuda.gif 1x,
+                images/projects/garuda.gif 2x
+              "
+              alt=""
+            />
+          </a>
+        </div>
+
+        <!-- end folio-item -->
+      </div>
+      <!-- end folio-list -->
+
+      <!-- Modal Templates Popup
+        =========================================================== -->
+      <div id="modal-01" hidden>
+        <div class="modal-popup">
+          <img src="images/projects/planeControl.jpg" alt="" />
+
+          <div class="modal-popup__desc">
+            <h5>XPlane Control using Hand Tracking and Voice Commands</h5>
+            <p>
+              The project utilized image processing for hand movement tracking
+              to steer the aircraft in the simulator, while voice recognition
+              controlled general functions such as adjusting air brakes and
+              accelerating on the runway.
+            </p>
+            <ul class="modal-popup__cat">
+              <li>OpenCV</li>
+              <li>Speech Recognition</li>
+              <li>PyAutoGUI</li>
+              <li>Hand Tracking</li>
+            </ul>
+          </div>
+
+          <a
+            href="https://github.com/lcthardik/Hand_Tracking_and_Voice_Commands_Integration"
+            class="modal-popup__details"
+            target="_blank"
+            >Github</a
+          >
+          <a
+            href="https://www.youtube.com/watch?v=lrFEo9Y9rW8"
+            class="modal-popup__details_video"
+            target="_blank"
+            >Video link</a
+          >
+        </div>
+      </div>
+      <!-- end modal -->
+
+      <div id="modal-02" hidden>
+        <div class="modal-popup">
+          <img src="images/projects/underactuated.png" alt="" />
+
+          <div class="modal-popup__desc">
+            <h5>Mathematical Controller for Under-Actuated Mobile Robot</h5>
+            <p>
+              This project utilized key concepts from multivariable control
+              systems and linear algebra to develop a MATLAB model for an
+              under-actuated robot. Stabilization tests were conducted to verify
+              LQR controller accuracy in comparison with PID control.
+            </p>
+            <ul class="modal-popup__cat">
+              <li>MATLAB</li>
+              <li>Simulink</li>
+              <li>Control Systems</li>
+              <li>LQR Controller</li>
+            </ul>
+          </div>
+
+          <a
+            href="https://github.com/lcthardik/Mathematical-Controller-for-Under-Actuated-Mobile-Robot"
+            class="modal-popup__details"
+            target="_blank"
+            >Github</a
+          >
+          <a
+            href="https://lcthardik.github.io/portfolioRobotics/docs/underactuated_report.pdf"
+            class="modal-popup__details_video"
+            target="_blank"
+            >Report link</a
+          >
+        </div>
+      </div>
+      <!-- end modal -->
+
+      <div id="modal-03" hidden>
+        <div class="modal-popup">
+          <img src="images/projects/kukabot.jpg" alt="" />
+
+          <div class="modal-popup__desc">
+            <h5>Modelling and Dynamics of 5 DOF Manipulator</h5>
+            <p>
+              The KUKA-YOU Bot was modeled in MATLAB and Simulink using
+              Denavit–Hartenberg parameters. This enabled the application of
+              forward and inverse kinematics, force dynamics, path planning, and
+              optimization to perform pick-and-place operations. Additionally,
+              image processing was used to detect the color of objects, allowing
+              the robot to differentiate and handle them accordingly.
+            </p>
+            <ul class="modal-popup__cat">
+              <li>MATLAB</li>
+              <li>Simulink</li>
+              <li>DH parameters</li>
+              <li>Image Processing</li>
+              <li>Forward Kinematics</li>
+            </ul>
+          </div>
+
+          <a
+            href="https://github.com/lcthardik/kuka_youbot_dynamics_and_control.git"
+            class="modal-popup__details"
+            target="_blank"
+            >Github</a
+          >
+          <a
+            href="https://www.youtube.com/watch?v=D2acFwJ1fO0"
+            class="modal-popup__details_video"
+            target="_blank"
+            >Video link</a
+          >
+        </div>
+      </div>
+      <!-- end modal -->
+
+      <div id="modal-04" hidden>
+        <div class="modal-popup">
+          <img src="images/projects/garuda.jpeg" alt="" />
+
+          <div class="modal-popup__desc">
+            <h5>Drone with 3-DOF Manipulator</h5>
+            <p>
+              This research project combined the use of drones and manipulators.
+              The three-degree-of-freedom robotic arm operated in two modes: an
+              autonomous mode, where a camera detected objects for the
+              end-effector to pick up, and a manual mode, where it followed the
+              movements of an exoskeleton glove worn by the user. The drone
+              featured trajectory following and altitude control for precise
+              navigation.
+            </p>
+            <ul class="modal-popup__cat">
+              <li>UAVs</li>
+              <li>Manipulator Design</li>
+              <li>Embedded Systems</li>
+            </ul>
+          </div>
+
+          <a
+            href="https://www.youtube.com/watch?v=i1RPTwkE3u4"
+            class="modal-popup__details_video"
+            target="_blank"
+            >Video Link</a
+          >
+
+          <a
+            href="https://lcthardik.github.io/portfolioRobotics/docs/Drone_with_Manipulator.pdf"
+            class="modal-popup__details"
+            target="_blank"
+            >Report</a
+          >
+        </div>
+      </div>
+      <!-- end modal -->
+
+      <div id="modal-05" hidden>
+        <div class="modal-popup">
+          <img src="images/projects/imageprocessinglinefollower.png" alt="" />
+
+          <div class="modal-popup__desc">
+            <h5>Image Processing Based Line follower Robot</h5>
+            <p>
+              This project involved developing an autonomous robot to simulate
+              the plantation process in agriculture using image processing. The
+              robot, powered by OpenCV on a Raspberry Pi, followed a line and
+              detected colored markers along its path. These markers were then
+              translated into a computer-generated image, simulating the
+              planting of various flowers corresponding to the color and number
+              of markers detected.
+            </p>
+            <ul class="modal-popup__cat">
+              <li>OpenCV</li>
+              <li>Raspberry Pi</li>
+              <li>Control Systems</li>
+              <li>Motor Control</li>
+            </ul>
+          </div>
+
+          <a
+            href="https://github.com/lcthardik/Image-Processing-Based-Line-Follower-With-Color-And-Shape-Detection.git"
+            class="modal-popup__details"
+            target="_blank"
+            >Github</a
+          >
+          <a
+            href="https://www.youtube.com/watch?v=wlBHm5I5n0k"
+            class="modal-popup__details_video"
+            target="_blank"
+            >Video link</a
+          >
+        </div>
+      </div>
+      <!-- end modal -->
+
+      <div id="modal-06" hidden>
+        <div class="modal-popup">
+          <img src="images/projects/linefoloowerwitharm.jpg" alt="" />
+
+          <div class="modal-popup__desc">
+            <h5>Autonomous Line Follower with Robotic Arm</h5>
+            <p>
+              The two-wheeled mobile robot used infrared sensors to detect black
+              lines on a white surface and included ultrasonic and color sensors
+              for obstacle and object color detection. The robot's navigation
+              area was stored in a matrix, and the A* algorithm was used for
+              pathfinding. It located objects, avoided obstacles, and
+              transported them to designated drop areas based on color. The
+              programming was done in embedded C using Atmel Studio.
+            </p>
+            <ul class="modal-popup__cat">
+              <li>Embedded C</li>
+              <li>Path Planning</li>
+              <li>Mechanical Design</li>
+              <li>Sensor Integration</li>
+            </ul>
+          </div>
+
+          <a
+            href="https://github.com/lcthardik/Pick-and-Place-Robot-with-Line-Following.git"
+            class="modal-popup__details"
+            target="_blank"
+            >Github</a
+          >
+          <a
+            href="https://www.youtube.com/watch?v=lDHaVqhnI5w"
+            class="modal-popup__details_video"
+            target="_blank"
+            >Video link</a
+          >
+        </div>
+      </div>
+      <!-- end modal -->
+
+      <div id="modal-07" hidden>
+        <div class="modal-popup">
+          <img src="images/projects/gesturedetection.png" alt="" />
+
+          <div class="modal-popup__desc">
+            <h5>
+              Analysis of emotions using Hand gestures and facial expressions
+            </h5>
+            <p>
+              This project applies machine learning to Human-Robot Interaction
+              (HRI), focusing on facial expression and hand gesture recognition.
+              Two convolutional neural networks were trained: one to recognize
+              facial expressions (happy, sad, neutral, surprised, angry) using
+              the FER-2013 dataset, and another for hand gestures (stop, okay,
+              thumbs up, peace). The facial expression model had five
+              convolutional layers, while the hand gesture model had three. The
+              live video feeds were fed into the network to identify the
+              emotions and hand gestures.
+            </p>
+            <ul class="modal-popup__cat">
+              <li>Image Processing</li>
+              <li>Human-Robot Interaction</li>
+              <li>Neural Networks</li>
+            </ul>
+          </div>
+
+          <a
+            href="https://lcthardik.github.io/portfolioRobotics/docs/ME780_Report.pdf"
+            class="modal-popup__details"
+            target="_blank"
+            >Report Link</a
+          >
+        </div>
+      </div>
+      <!-- end modal -->
+
+      <div id="modal-08" hidden>
+        <div class="modal-popup">
+          <img src="images/projects/landslide.png" alt="" />
+
+          <div class="modal-popup__desc">
+            <h5>Land Slide Detection using Wireless Sensor Network</h5>
+            <p>
+              The project consists of a sensor node equipped with sensors for
+              recording land movement and soil moisture. This data is utilized
+              to detect and predict the possibility of landslides in hilly
+              areas. It uses GPRS connectivity to transfer data to a server. The
+              data can then be viewed graphically to monitor and detect
+              potential landslides.
+            </p>
+            <ul class="modal-popup__cat">
+              <li>Embedded Systems</li>
+              <li>Circuit Design</li>
+              <li>Data Analysis</li>
+            </ul>
+          </div>
+
+          <a
+            href="https://github.com/lcthardik/landslide_detection_using_WSN.git"
+            class="modal-popup__details"
+            target="_blank"
+            >Github</a
+          >
+          <a
+            href="https://www.youtube.com/watch?v=QGzigIH8xJo"
+            class="modal-popup__details_video"
+            target="_blank"
+            >Video link</a
+          >
+        </div>
+      </div>
+      <!-- end modal -->
+    </section>
+    <!-- end s-portfolio -->
+
+    <!-- CTA
+    ================================================== -->
+    <!-- end s-cta -->
+
+    <!-- testimonials
+    ================================================== -->
+    <section id="publications" class="s-testimonials target-section">
+      <div class="s-testimonials__bg"></div>
+
+      <div class="row s-testimonials__header">
+        <div class="column large-12">
+          <h3>Research Publications</h3>
+        </div>
+      </div>
+
+      <div class="row s-testimonials__content">
+        <div class="column">
+          <div class="swiper-container testimonial-slider">
+            <div class="swiper-wrapper">
+              <div class="testimonial-slider__slide swiper-slide">
+                <div class="testimonial-slider__author">
+                  <img
+                    src="images/avatars/springer.png"
+                    alt="Author image"
+                    class="testimonial-slider__avatar"
+                  />
+                  <cite class="testimonial-slider__cite">
+                    <strong
+                      >Multi Robot Environment Exploration Using Swarm</strong
+                    >
+                    <span>Springer, Singapore · Jan 4, 2022</span>
+                  </cite>
+                </div>
+                <a
+                  href="https://doi.org/10.1007/978-981-16-7498-3_11"
+                  style="color: rgb(255, 255, 255); text-decoration: none"
+                  onmouseover="this.style.color='rgb(79, 68, 247)'"
+                  onmouseout="this.style.color='rgb(255, 255, 255)'"
+                  target="_blank"
+                  ><u>View Publication</u><br
+                /></a>
+                <strong style="color: rgb(255, 255, 255)">Abstract: </strong>
+                <p style="text-align: justify">
+                  This chapter discusses the exploration of unknown environments
+                  using multiple robots to address the inefficiencies of
+                  single-robot systems. Single robots are inefficient and
+                  inaccurate for mapping large unknown areas, leading to
+                  increased exploration time and errors. To improve this, we
+                  developed a system using multiple robots and the
+                  Random-Exploration Random Tree (RRT) algorithm. The robots
+                  communicate and coordinate through a swarm algorithm,
+                  preventing them from exploring the same area twice, thus
+                  saving time and enhancing mapping accuracy. The system is
+                  implemented using ROS middleware and tested with the GAZEBO
+                  simulator. This multi-robot approach is poised to be
+                  beneficial for future smart city ecosystems.
+                </p>
+              </div>
+              <!-- end testimonial-slider__slide -->
+
+              <div class="testimonial-slider__slide swiper-slide">
+                <div class="testimonial-slider__author">
+                  <img
+                    src="images/avatars/ijcrt.jpg"
+                    alt="Author image"
+                    class="testimonial-slider__avatar"
+                  />
+                  <cite class="testimonial-slider__cite">
+                    <a href="#"
+                      ><strong> Mobile Robot Navigation and Mapping</strong></a
+                    >
+                    <span
+                      >International Journal of Creative Research Thoughts · Jul
+                      7, 2020<br /><br
+                    /></span>
+                  </cite>
+                </div>
+                <a
+                  href="http://ijcrt.org/papers/IJCRT2007036.pdf"
+                  style="color: rgb(255, 255, 255); text-decoration: none"
+                  onmouseover="this.style.color='rgb(79, 68, 247)'"
+                  onmouseout="this.style.color='rgb(255, 255, 255)'"
+                  target="_blank"
+                  ><u>View Publication</u><br
+                /></a>
+                <strong style="color: rgb(255, 255, 255)">Abstract: </strong>
+                <p style="text-align: justify">
+                  This paper proposes a control architecture of a mobile robot
+                  which is capable of performing various task such as cleaning
+                  of the house as a cleaning robot. The key idea behind the
+                  working of these robots is simultaneous localization and
+                  mapping. The mobile robot uses an ultrasonic sensor to avoid
+                  unexpected obstacle detection in the environment and map the
+                  environment. Along with Ultrasonic sensors we have used
+                  Encoders which will give us the tic values with the help of
+                  which robot can map the environment by detecting its
+                  simultaneous position. In this paper, we have described the
+                  mapping and obstacle avoidance algorithm in detail.
+                </p>
+              </div>
+              <!-- end testimonial-slider__slide -->
+
+              <div class="testimonial-slider__slide swiper-slide">
+                <div class="testimonial-slider__author">
+                  <img
+                    src="images/avatars/ijcrt.jpg"
+                    alt="Author image"
+                    class="testimonial-slider__avatar"
+                  />
+                  <cite class="testimonial-slider__cite">
+                    <strong>
+                      Low Cost Security System With Feedback Control
+                      Loop</strong
+                    >
+                    <span
+                      >International Journal of Creative Research Thoughts · Dec
+                      12, 2020</span
+                    >
+                  </cite>
+                </div>
+                <a
+                  href="http://www.ijcrt.org/papers/IJCRT2012003.pdf"
+                  style="color: rgb(255, 255, 255); text-decoration: none"
+                  onmouseover="this.style.color='rgb(79, 68, 247)'"
+                  onmouseout="this.style.color='rgb(255, 255, 255)'"
+                  target="_blank"
+                  ><u>View Publication</u><br
+                /></a>
+                <strong style="color: rgb(255, 255, 255)">Abstract: </strong>
+                <p style="text-align: justify">
+                  In today’s market, security is a top concern. Our
+                  cost-effective IoT system, powered by Django, incorporates
+                  sensors and predictive algorithms to detect intrusions
+                  effectively. With features like two-factor authentication and
+                  GPS-based security layers, it offers robust protection for
+                  homes, offices, and schools. Continuously enhanced for
+                  production, it's designed to provide reliable security at an
+                  affordable price point. Whether it's for residential or
+                  commercial use, our system ensures peace of mind, offering a
+                  comprehensive solution to meet diverse security needs.
+                </p>
+              </div>
+              <!-- end testimonial-slider__slide -->
+
+              <div class="testimonial-slider__slide swiper-slide">
+                <div class="testimonial-slider__author">
+                  <img
+                    src="images/avatars/ijert.jpg"
+                    alt="Author image"
+                    class="testimonial-slider__avatar"
+                  />
+                  <cite class="testimonial-slider__cite">
+                    <strong>Simultaneous Traffic Management System</strong>
+                    <span
+                      >International Journal of Engineering Research &
+                      Technology · May 5, 2020 <br /><br
+                    /></span>
+                  </cite>
+                </div>
+                <a
+                  href="http://dx.doi.org/10.17577/IJERTV9IS050863"
+                  style="color: rgb(255, 255, 255); text-decoration: none"
+                  onmouseover="this.style.color='rgb(79, 68, 247)'"
+                  onmouseout="this.style.color='rgb(255, 255, 255)'"
+                  target="_blank"
+                  ><u>View Publication</u><br
+                /></a>
+                <strong style="color: rgb(255, 255, 255)">Abstract: </strong>
+                <p style="text-align: justify">
+                  With the surge in vehicle numbers, urban traffic has become a
+                  critical issue worldwide. Current systems struggle to manage
+                  this influx effectively, resulting in inefficient traffic
+                  control. To address this, an integrated detection and tracking
+                  approach is vital for real-time operation. We propose a
+                  cost-effective camera-based algorithm for traffic flow
+                  management. The algorithm comprises vehicle detection,
+                  counting, and tracking phases. Background subtraction isolates
+                  vehicles, Kalman filter tracks them, and the Hungarian
+                  algorithm associates labels with tracked vehicles. Tested on
+                  both daytime and nighttime CCTV and IR camera footage,
+                  experimental results demonstrate the algorithm's effectiveness
+                  in traffic management.
+                </p>
+              </div>
+              <!-- end testimonial-slider__slide -->
+            </div>
+            <!-- end testimonial slider swiper-wrapper -->
+
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- end swiper-container -->
+        </div>
+        <!-- end column -->
+      </div>
+      <!-- end row -->
+    </section>
+    <!-- end s-testimonials -->
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+      <div class="row s-contact__header">
+        <div class="column large-12">
+          <h3 class="section-header-allcaps">Say Hello</h3>
+        </div>
+      </div>
+
+      <div class="row s-contact__content">
+        <div class="column large-7 medium-12">
+          <h4 class="huge-text">
+            Feel free to reach out regarding career opportunities, freelance
+            work, upcoming events like conferences, or volunteer opportunities!
+          </h4>
+        </div>
+
+        <div class="column large-4 medium-12">
+          <div class="row contact-infos">
+            <div class="column large-12 medium-6 tab-12">
+              <div class="contact-block">
+                <h5 class="contact-block__header">Email</h5>
+                <p class="contact-block__content">
+                  <a class="mailtoui" href="mailto:hardikgossain9@gmail.com"
+                    >hardikgossain9@gmail.com</a
+                  >
+                </p>
+              </div>
+              <!-- end contact-block -->
+            </div>
+            <div class="column large-12 medium-6 tab-12">
+              <div class="contact-block">
+                <h5 class="contact-block__header">Phone</h5>
+                <p class="contact-block__content">
+                  <a href="tel:+16478654089">+1 (647) 8654-089</a>
+                </p>
+              </div>
+              <!-- end contact-block -->
+            </div>
+
+            <div class="column large-12">
+              <a
+                href="mailto:hardikgossain9@gmail.com"
+                class="mailtoui btn btn--primary h-full-width"
+                >Let's Talk</a
+              >
+            </div>
+          </div>
+          <!-- end contact-infos -->
+        </div>
+      </div>
+      <!-- s-contact__content -->
+    </section>
+    <!-- end s-contact -->
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer">
+      <div class="row">
+        <div
+          class="column large-4 medium-6 w-1000-stack s-footer__social-block"
+        >
+          <ul class="s-footer__social">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/hardikgossain/"
+                target="_blank"
+                ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/lcthardik" target="_blank"
+                ><i class="fab fa-github" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@skrewitupp" target="_blank"
+                ><i class="fab fa-youtube" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/skrewitupp/" target="_blank"
+                ><i class="fab fa-instagram" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="column large-7 medium-6 w-1000-stack ss-copyright">
+          <span>© Hardik Gossain 2023</span>
+        </div>
+      </div>
+
+      <div class="ss-go-top">
+        <a class="smoothscroll" title="Back to Top" href="#top">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z" />
+          </svg>
+        </a>
+      </div>
+      <!-- end ss-go-top -->
+    </footer>
+
+    <!-- Java Script
+    ================================================== -->
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
