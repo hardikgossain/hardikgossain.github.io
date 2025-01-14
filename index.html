@@ -100,15 +100,44 @@
       <div class="row s-hero__content">
         <div class="column">
           <div class="s-hero__content-about">
-            <h1>I'm Hardik Gossain.</h1>
+            <h1 class="bounce-in">Hello, I'm Hardik Gossain.</h1>
+
+            <style>
+              .bounce-in {
+                font-family: "Arial", sans-serif;
+                font-size: 2.5em;
+                animation: bounceIn 1.5s ease-out forwards;
+              }
+
+              @keyframes bounceIn {
+                0% {
+                  transform: scale(0.3);
+                  opacity: 0;
+                }
+                50% {
+                  transform: scale(1.05);
+                  opacity: 0.7;
+                }
+                70% {
+                  transform: scale(0.95);
+                  opacity: 0.9;
+                }
+                100% {
+                  transform: scale(1);
+                  opacity: 1;
+                }
+              }
+            </style>
 
             <h3>
-              I'm a <span>Robotics and Embedded Systems Engineer</span>,
-              passionate about developing innovative and efficient solutions. I
-              specialize in creating<span> ROS based systems</span> and
-              <span>IOT applications</span>. Let's
-              <a class="smoothscroll" href="#about">start scrolling</a> to learn
-              more <a class="smoothscroll" href="#about">about me</a>.
+              As a <span>Robotics and Embedded Systems Engineer</span>, I am
+              dedicated to designing innovative and efficient solutions that
+              push the boundaries of technology. With expertise in developing
+              <span>ROS-based systems</span> and creating cutting-edge
+              <span>IoT applications</span>, I bring ideas to life with
+              precision and creativity.
+              <a class="smoothscroll" href="#about">Scroll down</a> to discover
+              more about my journey and work.
             </h3>
 
             <div class="s-hero__content-social">
@@ -165,18 +194,19 @@
         <div class="column large-9 tab-12 s-about__content">
           <h3>About Me</h3>
           <p>
-            Hello! I'm Hardik Gossain, a robotics and control systems enthusiast
-            with a Master’s degree from the University of Waterloo and two years
-            of hands-on experience. My background includes designing robotic
-            systems, developing advanced control algorithms, and conducting
-            innovative research. With skills in AI, machine learning, sensor
-            integration, and project management, I am passionate about using
-            robotics to solve real-world problems and improve lives. I am eager
-            to connect with fellow professionals and enthusiasts for
-            collaboration and idea-sharing. Thank you for visiting my website!
+            Hello! I'm Hardik Gossain, a passionate Robotics and Control Systems
+            Engineer with a Master’s degree from the University of Waterloo and
+            two years of hands-on experience in the field. I specialize in
+            designing robotic systems, developing advanced control algorithms,
+            and conducting innovative research. My expertise spans AI, machine
+            learning, sensor integration, and project management, which I
+            leverage to create innovative solutions that address real-world
+            challenges. I am always excited to collaborate with fellow
+            professionals and enthusiasts to exchange ideas and push the
+            boundaries of what robotics can achieve. Thank you for visiting my
+            website – I look forward to connecting!
           </p>
 
-          <hr />
 
           <div class="row s-about__content-bottom">
             <div class="column w-1000-stack">
@@ -231,9 +261,35 @@
         <div class="column large-9 tab-12">
           <div class="resume-block">
             <div class="resume-block__header">
+              <h4 class="h3">Evertz Microsystems</h4>
+              <p class="resume-block__header-meta">
+                <span
+                  >Test and Validation Specialist, Burlington, ON, Canada</span
+                >
+                <span class="resume-block__header-date">
+                  September 2024 - Present
+                </span>
+              </p>
+            </div>
+
+            <p>
+              Responsible for testing advanced film, television, and
+              telecommunications equipment, leveraging automated test equipment
+              (ATE). Designed and implemented test scripts in Python to
+              streamline testing processes and enhance efficiency. Tasks include
+              diagnosing and troubleshooting electronic components, analyzing
+              performance and reliability, and building and updating test jigs.
+              Collaborated with cross-functional teams to ensure timely delivery
+              of high-quality products while adhering to documented procedures
+              such as ECO and AS/400.
+            </p>
+          </div>
+          <!-- end resume-block -->
+          <div class="resume-block">
+            <div class="resume-block__header">
               <h4 class="h3">Freelance Developer</h4>
               <p class="resume-block__header-meta">
-                <span>Robotics and Embedded Systems</span>
+                <span>Robotics and Embedded Systems, Hybrid</span>
                 <span class="resume-block__header-date">
                   November 2023 - Present
                 </span>
@@ -241,14 +297,13 @@
             </div>
 
             <p>
-              I set up AWS infrastructure for recording and analyzing IoT data,
-              utilizing Lambda, S3, and API Gateway to ensure smooth data
-              processing. This project was completed onsite for a startup within
-              a two-month timeframe. Additionally, I developed multiple path
-              planning algorithms for robots navigating on a grid-based map from
-              source to destination. Collaborating with a PhD researcher, we
-              delivered a robust solution that met all project specifications
-              over a three-month period.
+              Designed and implemented AWS infrastructure (Lambda, S3, API
+              Gateway) to streamline IoT data recording and analysis, completing
+              the project within two months for a startup. Additionally, I
+              developed multiple path planning algorithms for robots navigating
+              on a grid-based map from source to destination. Collaborating with
+              a PhD researcher, we delivered a robust solution that met all
+              project specifications over a three-month period.
             </p>
           </div>
           <!-- end resume-block -->
@@ -257,7 +312,7 @@
             <div class="resume-block__header">
               <h4 class="h3">Denso</h4>
               <p class="resume-block__header-meta">
-                <span>Production Associate</span>
+                <span>Production Associate, Guelph, ON, Canada</span>
                 <span class="resume-block__header-date">
                   August 2023 - November 2023
                 </span>
@@ -281,7 +336,7 @@
             <div class="resume-block__header">
               <h4 class="h3">Aerogram Pvt. Ltd.</h4>
               <p class="resume-block__header-meta">
-                <span>Embedded Systems Engineer</span>
+                <span>Embedded Systems Engineer, IIT Delhi, India</span>
                 <span class="resume-block__header-date">
                   January 2020 - August 2020
                 </span>
@@ -554,8 +609,6 @@
             />
           </a>
         </div>
-
-        
 
         <!-- end folio-item -->
       </div>
